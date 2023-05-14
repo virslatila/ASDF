@@ -1,0 +1,38 @@
+body {
+  margin-top: 150px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  background-color: rgb(247, 248, 191);
+}
+
+#board {
+  width: 455px;
+  height: 300px;
+  border: 2px solid rgb(0, 0, 0);
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#board img {
+  width: 150px;
+  height: 150px;
+  border: 0.5px solid rgb(0, 0, 0);
+}
+
+
+#pieces {
+  width: 909px;
+  height: 150px;
+  border: 2px solid rgb(0, 0, 0);
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 100px;
+}
+
+#pieces img {
+  width: 150px;
+  height: 150px;
+  border: 0.5px solid rgb(0, 0, 0);
+}
